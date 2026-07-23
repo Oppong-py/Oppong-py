@@ -1,16 +1,20 @@
-## Hi there 👋
+## Hey, I'm Kwabena 👋
 
-<!--
-**Oppong-py/Oppong-py** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**CS undergrad at KNUST** building toward ML engineering.
 
-Here are some ideas to get you started:
+National Robotics Champion (2025) · Regional Cybersecurity Champion (2024)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### What I'm working on
+
+- 🧠 Taking Andrew Ng's [ML Specialization](https://github.com/Oppong-py/ml-specialization-coursera) — documenting everything
+- 📱 Co-building [Arethos](https://github.com/Oppong-py/arethos) — a mental wellness app (React Native + Groq/Anthropic AI)
+- 🌐 Portfolio: [oppong-py.github.io](https://oppong-py.github.io)
+
+### Tech
+
+`Python` `JavaScript` `C++` `React Native` `Scikit-learn` `Pandas` `Django` `Git`
+
+### Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/kwabena-oppong-adutwum)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0F2B46?style=flat&logo=github&logoColor=C9A54E)](https://oppong-py.github.io)
