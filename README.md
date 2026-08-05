@@ -17,4 +17,5 @@ National Robotics Champion (2025) · Regional Cybersecurity Champion (2024)
 ### Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/kwabena-oppong-adutwum)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/Oppong-py)
 [![Portfolio](https://img.shields.io/badge/Portfolio-0F2B46?style=flat&logo=github&logoColor=C9A54E)](https://oppong-py.github.io)
