@@ -12,7 +12,7 @@ National Robotics Champion (2025) · Regional Cybersecurity Champion (2024)
 
 ### Tech
 
-`Python` `JavaScript` `C++` `React Native` `Scikit-learn` `Pandas` `NumPy` `Git`
+`Python` `C++` `React Native` `Scikit-learn` `Pandas` `NumPy` `Git`
 
 ### Connect
 
