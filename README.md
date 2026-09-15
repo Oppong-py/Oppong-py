@@ -31,7 +31,7 @@ robot holding a line at speed, moved through network security, and points now at
 **Languages**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=py,cpp,c,js,html,css&theme=dark" alt="Python, C++, C, JavaScript, HTML, CSS">
+  <img src="https://skillicons.dev/icons?i=py,cpp&theme=dark" alt="Python, C++">
 </p>
 
 **ML &amp; Data**
