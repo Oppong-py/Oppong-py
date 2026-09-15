@@ -48,13 +48,13 @@ robot holding a line at speed, moved through network security, and points now at
 **Frameworks &amp; Hardware**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,arduino,raspberrypi&theme=dark" alt="React Native, Arduino, Raspberry Pi">
+  <img src="https://skillicons.dev/icons?i=react,arduino&theme=dark" alt="React Native, Arduino">
 </p>
 
 **Tools**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,anaconda,figma,linux,md&theme=dark" alt="Git, GitHub, VS Code, Anaconda, Figma, Linux, Markdown">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,anaconda,figma,linux&theme=dark" alt="Git, GitHub, VS Code, Anaconda, Figma, Linux">
 </p>
 
 <br>
