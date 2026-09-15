@@ -73,10 +73,7 @@ robot holding a line at speed, moved through network security, and points now at
 
 <br>
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Oppong-py&theme=github_dark">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Oppong-py&theme=github_light" alt="GitHub stats">
-  </picture>
+ 
 
 <p align="center">
   <picture>
@@ -97,9 +94,9 @@ robot holding a line at speed, moved through network security, and points now at
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Oppong-py&theme=github_dark">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Oppong-py&theme=github_light" alt="Top languages by repository">
   </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Oppong-py&theme=github_dark">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Oppong-py&theme=github_light" alt="Top languages by commit">
+   <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Oppong-py&theme=github_dark">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Oppong-py&theme=github_light" alt="GitHub stats">
   </picture>
 </p>
 <!--
