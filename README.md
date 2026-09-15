@@ -84,15 +84,21 @@ robot holding a line at speed, moved through network security, and points now at
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Oppong-py&theme=github_dark">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Oppong-py&theme=github_light" alt="Top languages by repository" width="48%">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Oppong-py&theme=github_dark">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Oppong-py&theme=github_light" alt="Top languages by commit" width="48%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Oppong-py/Oppong-py/output/snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/Oppong-py/Oppong-py/output/snake.svg" alt="Contribution snake">
   </picture>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Oppong-py&theme=github_dark">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Oppong-py&theme=github_light" alt="Top languages by repository">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Oppong-py&theme=github_dark">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Oppong-py&theme=github_light" alt="Top languages by commit">
+  </picture>
+</p>
 <!--
   Two more cards exist and are deliberately left off for now:
 
