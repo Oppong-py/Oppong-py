@@ -2,6 +2,7 @@
 
 <p align="center">
   First-year Computer Science at <b>KNUST</b>, Kumasi &nbsp;·&nbsp; robotics → applied machine learning<br>
+  <b>Open to machine learning internships from summer 2027</b><br>
   <sub>National Robotics Champion 2025 &nbsp;·&nbsp; Regional Cybersecurity Champion 2024</sub>
 </p>
 
@@ -14,23 +15,31 @@
 
 ---
 
-### The most useful thing I did this year was make a number worse
+### I found the leak in our own evaluation, and it cost us 0.047
 
-Four days into a satellite-imagery hackathon in September, our model scored **0.6128** macro-F1 on Madrid and the folds barely disagreed — a standard deviation of 0.0040. That steadiness is what bothered me.
+Four days on a satellite-imagery problem in September: guess when a building was put up from 40 years of Landsat readings, train on Madrid, make it work in Amsterdam. Our Madrid score came back at **0.6128** macro-F1 and the folds barely disagreed — a standard deviation of 0.0040. That steadiness is what bothered me.
 
-A Landsat pixel is 30 metres across. A building is bigger than that. Splitting the data randomly was putting one half of a roof in training and the other half in the test set, so **82.4%** of held-out pixels sat within one pixel of something the model had already seen. Once we split by geography with a five-pixel gap, the honest score was **0.5656**.
+A Landsat pixel is 30 metres across and a building is bigger than that, so splitting the data randomly was putting one half of a roof in training and the other half in the test set. **82.4%** of held-out pixels sat within one pixel of something the model had already seen. Splitting by geography with a five-pixel buffer took that to **0.0%**, and the honest Madrid score to **0.5656** — every number anyone quoted that week, ours included, was about **0.047 too high**.
 
-We didn't place. Every decision after that point was made against a number that meant something.
+The second finding is the one worth the picture:
 
-**[Read how it went wrong →](https://oppong-py.github.io/blog-the-scoring-was-lying.html)** &nbsp;·&nbsp; **[the code →](https://github.com/Oppong-py/gds-hackathon-2026-building-age)**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Oppong-py/gds-hackathon-2026-building-age/main/results/cv-inversion.png" alt="Slope chart: four feature sets rank one way on Madrid and in exactly the reverse order on Amsterdam" width="760">
+</p>
+
+<p align="center"><sub>Four feature sets, ranked on the city we trained on and the city we were graded on. The order reverses exactly.<br>Choosing the way every course teaches — best cross-validation score wins — picks the wrong one.</sub></p>
+
+We didn't place. Adapting to Amsterdam with 25 labelled examples per class scored **0.6220 ± 0.0105**, against 0.5487 for the obvious approach of keeping the source model's trees. Afterwards I found our method comparison had run on a different feature set than the model we shipped, so those numbers don't reproduce — that's written into the repository under a heading saying so.
+
+**[The code →](https://github.com/Oppong-py/gds-hackathon-2026-building-age)** &nbsp;·&nbsp; **[How it went wrong →](https://oppong-py.github.io/blog-the-scoring-was-lying.html)** &nbsp;·&nbsp; **[What transfer learning cost →](https://oppong-py.github.io/blog-transfer-learning-cost.html)**
 
 ---
 
 ### Now
 
-- Working through **Andrew Ng's ML Specialization** — Course 1, notes published per week rather than kept private, so the repo shows exactly how far along it is
-- Writing **logistic regression from scratch** in NumPy, no scikit-learn, to understand what the library has been doing for me
-- Co-building **Arethos**, an offline-first mental wellness app for KNUST students
+- **Andrew Ng's ML Specialization** — Course 1, with [the notes published weekly](https://github.com/Oppong-py/ml-specialization-coursera) rather than kept private, so the repo shows exactly how far along it is
+- **Logistic regression from scratch** in NumPy, no scikit-learn, to understand what the library has been doing for me
+- **Arethos** — an offline-first mental wellness app for KNUST students, built with two others. Private while we finish it; [the engineering write-up is public](https://oppong-py.github.io/blog-arethos-rn.html)
 
 ### Written
 
@@ -50,8 +59,8 @@ We didn't place. Every decision after that point was made against a number that 
   </picture>
 </p>
 
-Day to day that means NumPy, pandas, Matplotlib and Jupyter for the data work, and React Native when something needs a screen. Honest about the edges: I can use these, I am not yet fast with them.
+Plus NumPy, pandas, Matplotlib and Jupyter for the data work, and React Native when something needs a screen. The list is short on purpose — these are the ones I have shipped something with.
 
 ---
 
-<p align="center"><sub>Open to machine learning internships from summer 2027 · Kumasi, Ghana · GMT+0</sub></p>
+<p align="center"><sub>Kumasi, Ghana · GMT+0 · replies within a day</sub></p>
