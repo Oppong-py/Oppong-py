@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/currently-GDS%20Hackathon%202026-935D0D?style=flat-square" alt="Currently: GDS Hackathon 2026">
+  <img src="https://img.shields.io/badge/completed-GDS%20Hackathon%202026-935D0D?style=flat-square" alt="Currently: GDS Hackathon 2026">
   <img src="https://img.shields.io/badge/learning-applied%20ML-0D6273?style=flat-square" alt="Learning: applied ML">
   <img src="https://img.shields.io/badge/open%20to-collaboration-4A5568?style=flat-square" alt="Open to collaboration">
   <img src="https://komarev.com/ghpvc/?username=Oppong-py&label=views&color=935D0D&style=flat-square" alt="Profile views">
