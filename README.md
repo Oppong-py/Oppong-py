@@ -1,114 +1,38 @@
 <h1 align="center">Kwabena Oppong Adutwum</h1>
-
 <p align="center">
-  CS undergrad at <b>KNUST</b>, Kumasi &middot; working toward machine learning engineering<br>
-  <sub>National Robotics Champion 2025 &nbsp;&middot;&nbsp; Regional Cybersecurity Champion 2024</sub>
+  First-year Computer Science at <b>KNUST</b>, Kumasi &nbsp;·&nbsp; robotics → applied machine learning<br>
+  <sub>National Robotics Champion 2025 &nbsp;·&nbsp; Regional Cybersecurity Champion 2024</sub>
 </p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/completed-GDS%20Hackathon%202026-935D0D?style=flat-square" alt="Currently: GDS Hackathon 2026">
-  <img src="https://img.shields.io/badge/learning-applied%20ML-0D6273?style=flat-square" alt="Learning: applied ML">
-  <img src="https://img.shields.io/badge/open%20to-collaboration-4A5568?style=flat-square" alt="Open to collaboration">
-  <img src="https://komarev.com/ghpvc/?username=Oppong-py&label=views&color=935D0D&style=flat-square" alt="Profile views">
-</p>
-
 <p align="center">
   <a href="https://oppong-py.github.io"><img src="https://img.shields.io/badge/Portfolio-935D0D?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"></a>
   <a href="https://linkedin.com/in/kwabena-oppong-adutwum"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://leetcode.com/u/Oppong-py"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
-  <a href="mailto:kaoppong5@st.knust.edu.gh"><img src="https://img.shields.io/badge/Email-0D6273?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="mailto:oppongkwabena1777dev@gmail.com"><img src="https://img.shields.io/badge/Email-0D6273?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
-
 ---
-
-I build systems that sense something and then decide what to do about it. That started with a
-robot holding a line at speed, moved through network security, and points now at machine learning.
-
-<br>
-
-## 🧰 Tech Stack
-
-**Languages**
-
+The most useful thing I did this year was make a number worse
+Four days into a satellite-imagery hackathon in September, our model scored 0.6128 macro-F1 on Madrid and the folds barely disagreed — a standard deviation of 0.0040. That steadiness is what bothered me.
+A Landsat pixel is 30 metres across. A building is bigger than that. Splitting the data randomly was putting one half of a roof in training and the other half in the test set, so 82.4% of held-out pixels sat within one pixel of something the model had already seen. Once we split by geography with a five-pixel gap, the honest score was 0.5656.
+We didn't place. Every decision after that point was made against a number that meant something.
+Read how it went wrong →  ·  the code →
+---
+Now
+Working through Andrew Ng's ML Specialization — Course 1, notes published per week rather than kept private, so the repo shows exactly how far along it is
+Writing logistic regression from scratch in NumPy, no scikit-learn, to understand what the library has been doing for me
+Co-building Arethos, an offline-first mental wellness app for KNUST students
+Written
+	
+The scoring was lying to us	Finding a leak in our own evaluation, and what the honest score cost
+What transfer learning actually costs	Three assumptions about moving a model between cities, each measured, each wrong
+From PID control to reinforcement learning	Tuning three numbers on a robot is the same shape of problem as tuning a learning rate
+Three bugs that taught me more than any tutorial	React Native's zIndex, a stale closure, and nine haptic iterations on Android
+Toolkit
 <p>
-  <img src="https://skillicons.dev/icons?i=py,cpp&theme=dark" alt="Python, C++">
-</p>
-
-**ML &amp; Data**
-
-<p>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
-  <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Google Colab">
-</p>
-
-**Frameworks &amp; Hardware**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=react,arduino&theme=dark" alt="React Native, Arduino">
-</p>
-
-**Tools**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,anaconda,figma,linux&theme=dark" alt="Git, GitHub, VS Code, Anaconda, Figma, Linux">
-</p>
-
-<br>
-
-## 🚧 What I'm building
-
-| | Project | What it is |
-|:--:|---|---|
-| 🛰️ | **Ghana Data Science Regional Hackathon 2026** | Building-age classification from 40 years of Landsat imagery. Four classes, macro F1, transfer from Madrid to Amsterdam on as few as 5 labelled examples per class. |
-| 🧠 | **[ml-specialization-coursera](https://github.com/Oppong-py/ml-specialization-coursera)** | Andrew Ng's ML Specialization, worked through with notes published per week instead of kept private. |
-| ⚡ | **[solar-water-dispenser](https://github.com/Oppong-py/solar-water-dispenser)** | Off-grid Arduino dispenser — dual ultrasonic sensors, solenoid valve control, debounce logic to kill false triggers. |
-| 🧮 | **[leetcode-solutions](https://github.com/Oppong-py/leetcode-solutions)** | Worked solutions with the failed attempts left in, because those are the part worth reading. |
-| 🌐 | **[Portfolio](https://oppong-py.github.io)** | Projects, write-ups, and what I'm building next. |
-
-**Next up** — a student performance prediction model: logistic regression from scratch, no scikit-learn.
-
-<br>
-
- 
-
-<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Oppong-py&theme=github_dark">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Oppong-py&theme=github_light" alt="GitHub profile summary">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,cpp,sklearn,arduino,git,linux,vscode&theme=dark">
+    <img src="https://skillicons.dev/icons?i=py,cpp,sklearn,arduino,git,linux,vscode&theme=light" alt="Python, C++, scikit-learn, Arduino, Git, Linux, VS Code">
   </picture>
 </p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Oppong-py/Oppong-py/output/snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/Oppong-py/Oppong-py/output/snake.svg" alt="Contribution snake">
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Oppong-py&theme=github_dark">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Oppong-py&theme=github_light" alt="Top languages by repository">
-  </picture>
-   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Oppong-py&theme=github_dark">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Oppong-py&theme=github_light" alt="GitHub stats">
-  </picture>
-</p>
-<!--
-  Two more cards exist and are deliberately left off for now:
-
-    .../cards/stats?username=Oppong-py            -> Total Stars / Commits / PRs / Issues
-    https://streak-stats.demolab.com/?user=Oppong-py  -> current + longest streak
-
-  Right now they would publish "Total Stars: 0 · Total PRs: 0" and a zeroed streak.
-  Turn them on when the numbers argue for you — roughly, once stars are non-zero and
-  you have merged PRs on someone else's repo. The cards above are proportional and
-  scale-free, so they read well at any size.
--->
-
-<p align="center"><sub>Open to collaboration on robotics, applied ML, and anything that has to work outdoors.</sub></p>
+Day to day that means NumPy, pandas, Matplotlib and Jupyter for the data work, and React Native when something needs a screen. Honest about the edges: I can use these, I am not yet fast with them.
+---
+<p align="center"><sub>Open to machine learning internships from summer 2027 · Kumasi, Ghana · GMT+0</sub></p>
