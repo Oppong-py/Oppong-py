@@ -42,13 +42,10 @@ Four pieces so far, all on [oppong-py.github.io](https://oppong-py.github.io/wri
 ### Toolkit
 
 <p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,cpp,sklearn,arduino,git,linux,vscode&theme=dark">
-    <img src="https://skillicons.dev/icons?i=py,cpp,sklearn,arduino,git,linux,vscode&theme=light" alt="Python, C++, scikit-learn, Arduino, Git, Linux, VS Code">
-  </picture>
+  <img src="https://skillicons.dev/icons?i=py,cpp,sklearn,react,git,github,vscode,linux,figma" alt="Python, C++, scikit-learn, React Native, Git, GitHub, VS Code, Linux, Figma">
 </p>
 
-Plus NumPy, pandas, Matplotlib and Jupyter for the data work, and React Native when something needs a screen. The list is short on purpose — these are the ones I have shipped something with.
+NumPy, pandas, Matplotlib and Jupyter do the actual data work — they have no icons, so they sit here in words. The list is short on purpose: these are the ones I reach for without looking things up.
 
 ---
 
