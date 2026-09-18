@@ -2,8 +2,7 @@
 
 <p align="center">
   First-year Computer Science at <b>KNUST</b>, Kumasi &nbsp;·&nbsp; robotics → applied machine learning<br>
-  <b>Open to machine learning internships from summer 2027</b><br>
-  <sub>National Robotics Champion 2025 &nbsp;·&nbsp; Regional Cybersecurity Champion 2024</sub>
+  <b>Open to machine learning internships from summer 2027</b>
 </p>
 
 <p align="center">
@@ -15,40 +14,30 @@
 
 ---
 
-### I found the leak in our own evaluation, and it cost us 0.047
+### Hello
 
-Four days on a satellite-imagery problem in September: guess when a building was put up from 40 years of Landsat readings, train on Madrid, make it work in Amsterdam. Our Madrid score came back at **0.6128** macro-F1 and the folds barely disagreed — a standard deviation of 0.0040. That steadiness is what bothered me.
+I build things that read the world and then decide what to do about it.
 
-A Landsat pixel is 30 metres across and a building is bigger than that, so splitting the data randomly was putting one half of a roof in training and the other half in the test set. **82.4%** of held-out pixels sat within one pixel of something the model had already seen. Splitting by geography with a five-pixel buffer took that to **0.0%**, and the honest Madrid score to **0.5656** — every number anyone quoted that week, ours included, was about **0.047 too high**.
+That started with robotics. I spent secondary school tuning a line-following robot until it stopped falling off the line, and then until it won nationals. It carried on through cybersecurity, where I ran my school's club and taught seven juniors. Both turned out to be the same job: watch what the system does, change one thing, watch again. Machine learning is where that habit landed.
 
-The second finding is the one worth the picture:
+I'd rather work on problems close to home. Ghana has no shortage of them — farms that could use a better guess at next season's yield, clinics deciding who to see first, power that comes and goes. It makes more sense to build for that here than to wait for someone somewhere else to get round to it.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Oppong-py/gds-hackathon-2026-building-age/main/results/cv-inversion.png" alt="Slope chart: four feature sets rank one way on Madrid and in exactly the reverse order on Amsterdam" width="760">
-</p>
+### What I'm working on
 
-<p align="center"><sub>Four feature sets, ranked on the city we trained on and the city we were graded on. The order reverses exactly.<br>Choosing the way every course teaches — best cross-validation score wins — picks the wrong one.</sub></p>
+My most recent public work is a four-day satellite-imagery problem from September: guess when a building was put up from 40 years of Landsat readings, train the model on Madrid, make it work in Amsterdam. The part worth pointing at isn't the model — it's that we found the evaluation we'd been handed was inflating every score by **0.047 macro-F1**, and that the feature set scoring best on the city we trained on was the worst one to carry across.
 
-We didn't place. Adapting to Amsterdam with 25 labelled examples per class scored **0.6220 ± 0.0105**, against 0.5487 for the obvious approach of keeping the source model's trees. Afterwards I found our method comparison had run on a different feature set than the model we shipped, so those numbers don't reproduce — that's written into the repository under a heading saying so.
-
-**[The code →](https://github.com/Oppong-py/gds-hackathon-2026-building-age)** &nbsp;·&nbsp; **[How it went wrong →](https://oppong-py.github.io/blog-the-scoring-was-lying.html)** &nbsp;·&nbsp; **[What transfer learning cost →](https://oppong-py.github.io/blog-transfer-learning-cost.html)**
-
----
+The repository is pinned below. Both findings are written up properly on my site:
+**[the leak](https://oppong-py.github.io/blog-the-scoring-was-lying.html)** · **[what transfer learning costs](https://oppong-py.github.io/blog-transfer-learning-cost.html)**
 
 ### Now
 
-- **Andrew Ng's ML Specialization** — Course 1, with [the notes published weekly](https://github.com/Oppong-py/ml-specialization-coursera) rather than kept private, so the repo shows exactly how far along it is
+- **Andrew Ng's ML Specialization** — Course 1, with [the notes published weekly](https://github.com/Oppong-py/ml-specialization-coursera) rather than kept private
 - **Logistic regression from scratch** in NumPy, no scikit-learn, to understand what the library has been doing for me
 - **Arethos** — an offline-first mental wellness app for KNUST students, built with two others. Private while we finish it; [the engineering write-up is public](https://oppong-py.github.io/blog-arethos-rn.html)
 
 ### Written
 
-| | |
-|---|---|
-| [**The scoring was lying to us**](https://oppong-py.github.io/blog-the-scoring-was-lying.html) | Finding a leak in our own evaluation, and what the honest score cost |
-| [**What transfer learning actually costs**](https://oppong-py.github.io/blog-transfer-learning-cost.html) | Three assumptions about moving a model between cities, each measured, each wrong |
-| [**From PID control to reinforcement learning**](https://oppong-py.github.io/blog-pid-to-rl.html) | Tuning three numbers on a robot is the same shape of problem as tuning a learning rate |
-| [**Three bugs that taught me more than any tutorial**](https://oppong-py.github.io/blog-arethos-rn.html) | React Native's zIndex, a stale closure, and nine haptic iterations on Android |
+Four pieces so far, all on [oppong-py.github.io](https://oppong-py.github.io/writing.html) — two from the hackathon, one on what tuning a robot taught me about learning rates, one on three React Native bugs that taught me more than any tutorial.
 
 ### Toolkit
 
