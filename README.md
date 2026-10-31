@@ -41,7 +41,7 @@ Four pieces so far, all on [oppong-py.github.io](https://oppong-py.github.io/wri
 ### Toolkit
 
 <p>
-  <img src="https://skillicons.dev/icons?i=py,cpp,sklearn,react,git,github,vscode,linux,figma" alt="Python, C++, scikit-learn, React Native, Git, GitHub, VS Code, Linux, Figma">
+  <img src="https://skillicons.dev/icons?i=py,cpp,java,git,github,vscode,linux,figma" alt="Python, C++, Java, Git, GitHub, VS Code, Linux, Figma">
 </p>
 
 NumPy, pandas, Matplotlib and Jupyter do the actual data work — they have no icons, so they sit here in words. The list is short on purpose: these are the ones I reach for without looking things up.
