@@ -1,7 +1,7 @@
 <h1 align="center">Kwabena Oppong Adutwum</h1>
 
 <p align="center">
-  First-year Computer Science at <b>KNUST</b>, Kumasi &nbsp;·&nbsp; robotics → applied machine learning<br>
+  Robotics → Applied Machine Learning<br>
   <b>Open to machine learning internships from summer 2027</b>
 </p>
 
